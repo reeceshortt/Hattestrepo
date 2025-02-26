@@ -1,7 +1,7 @@
 /* Reset margin and padding for body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #dc2b95;
     color: #333;
     text-align: center;
     padding: 50px;
@@ -10,7 +10,7 @@ body {
 
 /* Style for header */
 h1 {
-    color: #007bff; /* Blue */
+    color: #ff0000; /* red */
     font-size: 2.5rem;
 }
 
