@@ -1,8 +1,8 @@
 /* Reset margin and padding for body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #dc2b95;
-    color: #333;
+    background-color: #ffd1df;
+    color: #000000;
     text-align: center;
     padding: 50px;
     margin: 0; /* Ensure no default margin */
@@ -10,7 +10,7 @@ body {
 
 /* Style for header */
 h1 {
-    color: #ff0000; /* red */
+    color: #000000; /* black*/
     font-size: 2.5rem;
 }
 
@@ -22,7 +22,7 @@ p {
 
 /* Center the container */
 .container {
-    background: white;
+    background: rgb(249, 127, 225);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -36,7 +36,7 @@ p {
 
 /* Contact Section Styles */
 .contact {
-    background-color: #ffffff;
+    background-color: #ffe9ec;
     padding: 20px;
     margin-top: 50px; /* Adds space above the contact section */
     border-radius: 10px;
@@ -57,7 +57,7 @@ p {
 }
 
 .contact a {
-    color: #007bff; /* Blue color for links */
+    color: #ffded7; /* Blue color for links */
     text-decoration: none;
 }
 
