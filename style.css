@@ -6,6 +6,11 @@ body {
     text-align: center;
     padding: 50px;
     margin: 0; /* Ensure no default margin */
+
+    background-image: url('/Users/rshortt/Hattestrepo/Images/BackgroundImage.jpeg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 /* Style for header */
@@ -17,12 +22,12 @@ h1 {
 /* Style for paragraph */
 p {
     font-size: 1.2rem;
-    color: #555; /* Gray */
+    color: #ffffff; /* Gray */
 }
 
 /* Center the container */
 .container {
-    background: rgb(249, 127, 225);
+    background: rgba(249, 127, 225, 0.5); /* 50% transparency */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -34,33 +39,48 @@ p {
     justify-content: center;
 }
 
-/* Contact Section Styles */
-.contact {
-    background-color: #ffe9ec;
-    padding: 20px;
-    margin-top: 50px; /* Adds space above the contact section */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 50px auto; /* Centers the contact section */
-    text-align: left;
+
+
+img {
+    width: 500px;  /* Image width will be 500 pixels */
+    height: 400px; /* Image height will be 300 pixels */
+  }
+
+  footer {
+    background-color: rgba(51, 51, 51, 0.5);  /* Dark background with 50% transparency */
+    color: white;                             /* White text */
+    padding: 20px 0;                          /* Add padding to top and bottom */
+    text-align: center;                       /* Center text */
 }
 
-.contact h2 {
-    color: #007bff; /* Blue color for the heading */
-    font-size: 2rem;
-}
-
-.contact p {
-    font-size: 1rem;
-    color: #555;
-}
-
-.contact a {
-    color: #ffded7; /* Blue color for links */
-    text-decoration: none;
-}
-
-.contact a:hover {
-    text-decoration: underline;
-}
+  
+  footer .footer-content {
+    max-width: 1200px;       /* Limit width */
+    margin: 0 auto;          /* Center the content */
+    padding: 0 15px;         /* Add some horizontal padding */
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;     /* Space below the heading */
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 5px 0;           /* Space between contact info */
+  }
+  
+  footer .contact-info {
+    margin-top: 20px;        /* Space above contact information */
+  }
+  
+  footer a {
+    color: #f10303;             /* White links */
+    text-decoration: none;   /* Remove underline */
+  }
+  
+  footer a:hover {
+    text-decoration: underline;  /* Underline links on hover */
+  }
+  
+  
