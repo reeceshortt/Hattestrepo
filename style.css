@@ -1,22 +1,26 @@
-/* style.css */
+/* Reset margin and padding for body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ce56b2;
-    color: #000000;
+    background-color: #f4f4f4;
+    color: #333;
     text-align: center;
     padding: 50px;
+    margin: 0; /* Ensure no default margin */
 }
 
+/* Style for header */
 h1 {
-    color: #007bff;
+    color: #007bff; /* Blue */
     font-size: 2.5rem;
 }
 
+/* Style for paragraph */
 p {
     font-size: 1.2rem;
-    color: #555;
+    color: #555; /* Gray */
 }
 
+/* Center the container */
 .container {
     background: white;
     padding: 20px;
@@ -24,4 +28,8 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
