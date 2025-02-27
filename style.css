@@ -83,4 +83,22 @@ img {
     text-decoration: underline;  /* Underline links on hover */
   }
   
+  .slideshow-container {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .fade {
+    animation: fadeEffect 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
   
